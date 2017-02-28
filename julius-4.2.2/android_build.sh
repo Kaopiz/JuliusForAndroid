@@ -1,6 +1,6 @@
 #!/bin/sh
-export TARGET_DIR="$HOME/Documents/workspace/JuliusForAndroid/jni"
-export NDK_ROOT="$HOME/Lib/android/android-ndk-r8b"
+export TARGET_DIR="./../jni"
+export NDK_ROOT="./../ndk/android-ndk-r8b"
 
 export SYSROOT="$NDK_ROOT/platforms/android-8/arch-arm"
 export TOOL_ROOT="$NDK_ROOT/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin"

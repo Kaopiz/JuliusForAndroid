@@ -18,8 +18,8 @@
 ------------
 
 1. リポジトリの "sdcard" ディレクトリ内にある "julius" 以下をそのまま、Androidデバイスの外部ストレージ(sdcard等)にコピーしてください
-1. julius-4.2.2ディレクトリでandroid_build.shを起動してください。
-1. jniディレクトリでndk-buildしてください。
+1. julius-4.2.2ディレクトリで`./android_build.sh`を起動してください。
+1. jniディレクトリで`./re_build_so.sh`してください。
 1. APKを作成し、Androidへデプロイしてください。
 
 注意

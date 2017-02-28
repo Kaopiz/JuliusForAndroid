@@ -1,5 +1,5 @@
 #include <stdbool.h>
-#include "jp_co_tis_stc_julius_JuliusActivity.h"
+#include "fe_application_katakanadic_fragments_TestDialog.h"
 #include <julius/juliuslib.h>
 
 #ifdef ANDROID_DEBUG
@@ -12,7 +12,7 @@ jobject *gobj;
 
 static void output_result(Recog *recog, void *dummy);
 
-JNIEXPORT jboolean JNICALL Java_jp_co_tis_stc_julius_JuliusActivity_initJulius
+JNIEXPORT jboolean JNICALL Java_fe_application_katakanadic_fragments_TestDialog_initJulius
   (JNIEnv *env, jobject obj, jstring jconfpath)
 {
   Jconf *jconf;
@@ -66,7 +66,7 @@ JNIEXPORT jboolean JNICALL Java_jp_co_tis_stc_julius_JuliusActivity_initJulius
   return true;
 }
 
-JNIEXPORT void JNICALL Java_jp_co_tis_stc_julius_JuliusActivity_recognize
+JNIEXPORT void JNICALL Java_fe_application_katakanadic_fragments_TestDialog_recognize
   (JNIEnv *env, jobject obj, jstring jwavepath)
 {
   int ret;
@@ -157,7 +157,7 @@ static void output_result(Recog *recog, void *dummy) {
 #endif
 }
 
-JNIEXPORT void JNICALL Java_jp_co_tis_stc_julius_JuliusActivity_terminateJulius
+JNIEXPORT void JNICALL Java_fe_application_katakanadic_fragments_TestDialog_terminateJulius
   (JNIEnv *env, jobject obj)
 {
 #ifdef ANDROID_DEBUG

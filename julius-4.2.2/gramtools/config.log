@@ -1,0 +1,15 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:551: checking host system type
+configure:572: checking host-specific optimization flag
+configure:587: checking for gcc
+configure:700: checking whether the C compiler (./../ndk/android-ndk-r8b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/arm-linux-androideabi-gcc -mandroid --sysroot=./../ndk/android-ndk-r8b/platforms/android-8/arch-arm -nostdlib -DANDROID_CUSTOM -DANDROID_DEBUG -Wl,-rpath-link=./../ndk/android-ndk-r8b/platforms/android-8/arch-arm/usr/lib/ -L./../ndk/android-ndk-r8b/platforms/android-8/arch-arm/usr/lib/) works
+configure:716: ./../ndk/android-ndk-r8b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/arm-linux-androideabi-gcc -mandroid --sysroot=./../ndk/android-ndk-r8b/platforms/android-8/arch-arm -o conftest -nostdlib -DANDROID_CUSTOM -DANDROID_DEBUG -I./../ndk/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/ -Wl,-rpath-link=./../ndk/android-ndk-r8b/platforms/android-8/arch-arm/usr/lib/ -L./../ndk/android-ndk-r8b/platforms/android-8/arch-arm/usr/lib/ conftest.c -lc -lz -lgcc -llog 1>&5
+./configure: line 715: ./../ndk/android-ndk-r8b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/arm-linux-androideabi-gcc: No such file or directory
+configure: failed program was:
+
+#line 711 "configure"
+#include "confdefs.h"
+
+main(){return(0);}

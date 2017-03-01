@@ -16,7 +16,6 @@ libsent-config
 libsent-config-dist
 .DS_StoreL
 
-bin/
 gen/
 obj/
 libs/armeabi/:
